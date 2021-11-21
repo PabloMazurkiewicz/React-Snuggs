@@ -1,0 +1,140 @@
+.NavbarRow {
+  padding: 30px 55px;
+}
+.NavbarLogoA:hover {
+  opacity: 0.6;
+}
+.NavbarLogo {
+  width: 25%;
+  height: 100%;
+}
+.NavbarUl {
+  position: relative;
+  padding: 0;
+  text-align: center;
+  margin: 25px 0;
+}
+.NavbarLi {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+  padding: 3px 10px;
+  font-size: 1.1em;
+}
+.NavBarliA {
+  color: #3d4246;
+  text-decoration: none;
+  font-size: 1em;
+}
+.NavBarliA:hover {
+  color: #3d4246;
+  text-decoration: none;
+  opacity: 0.6;
+}
+.NavbarRightCol {
+  display: flex !important;
+  justify-content: flex-end;
+  align-items: center;
+}
+.NavbarIconsA {
+  color: #3d4246;
+}
+.NavbarIconsA:hover {
+  color: #3d4246;
+  opacity: 0.6;
+}
+
+.NavbarIcons {
+  font-size: 1.5em;
+  margin: 0 10px;
+}
+.NavbarDivider {
+  margin: 0px 0px !important;
+}
+
+@media only screen and (max-width: 1498px) {
+  .NavbarLogo {
+    width: 48%;
+  }
+}
+@media only screen and (max-width: 1204px) {
+  .NavbarRow {
+    padding: 0px 55px;
+  }
+  .NavbarLogo {
+    width: 55%;
+  }
+}
+@media only screen and (max-width: 1086px) {
+  .NavbarLogo {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .NavbarRow {
+    padding: 10px 0px;
+  }
+}
+
+.popupDiv {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
+.popupContent {
+  background: rgba(255, 255, 255, 0);
+  width: 80%;
+  border: none;
+}
+.burger-menu,
+.burger-menu.open {
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  right: 15px;
+  bottom: 40px;
+  z-index: 9999;
+  background: #fff;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+.burger-menu .bar1,
+.bar2,
+.bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+.burger-menu.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-4px, 4px);
+  transform: rotate(-45deg) translate(-4px, 4px);
+}
+.burger-menu.open .bar2 {
+  opacity: 0;
+}
+.burger-menu.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -6px);
+  transform: rotate(45deg) translate(-6px, -6px);
+}
+.menu {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding: 0px;
+  height: 100%;
+}
+.menu ul {
+  position: relative;
+  top: 0px;
+  font-size: 24px;
+  padding: 0px;
+}
+.menu li {
+  list-style: outside none none;
+  margin: 30px 0px;
+  padding: 0;
+  cursor: pointer;
+}

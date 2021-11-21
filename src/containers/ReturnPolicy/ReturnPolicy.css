@@ -1,0 +1,39 @@
+.ReturnPolicyHeader {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-transform: capitalize;
+  font-size: 3em;
+  font-weight: bolder;
+  text-align: center;
+}
+.ReturnPolicyRow {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.ReturnPolicyParagraph {
+  font-size: 1.15em;
+  color: #788188;
+  margin: 0 0 19.44444px;
+}
+.ReturnPolicyParagraphHref {
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
+  color: #3d4246;
+  text-decoration: none;
+}
+.ReturnPolicyParagraphHref:hover {
+  color: #3d4246;
+  opacity: 0.6;
+}
+.ReturnPolicyRefund {
+  color: #f20a0a;
+}
+.ReturnPolicyShipping {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 767px) {
+  .ReturnPolicyRow {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}

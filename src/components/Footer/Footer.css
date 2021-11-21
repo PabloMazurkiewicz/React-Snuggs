@@ -1,0 +1,69 @@
+.FooterRow {
+  margin: 55px 0;
+  position: relative !important;
+  top: 100% !important;
+  display: flex;
+  justify-content: space-evenly;
+}
+.FooterUl {
+  list-style: none;
+  font-size: 1.15em;
+  padding: 0px;
+}
+.FooterUl li {
+  margin-bottom: 5px;
+  color: #3d4246;
+  text-decoration: none;
+}
+.FooterUl li a {
+  margin-bottom: 5px;
+  color: #3d4246;
+  text-decoration: none;
+}
+.FooterUl li a:hover {
+  color: #3d4246;
+  opacity: 0.6;
+}
+.FooterForm {
+  font-weight: bold;
+  display: flex;
+}
+.FooterForm .ant-form-item-label label {
+  font-size: 1.4em !important;
+}
+.FooterSubscribe {
+  margin-top: 48px;
+  text-transform: uppercase;
+  font-weight: bold !important;
+}
+@media only screen and (max-width: 895px) {
+  .FooterSubscribe {
+    margin-top: 51px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .FooterSubscribe {
+    margin-top: 48px;
+  }
+}
+@media only screen and (max-width: 398px) {
+  .FooterSubscribe {
+    margin-top: 51px;
+  }
+}
+@media only screen and (max-width: 290px) {
+  .FooterForm .ant-form-item-label label {
+    margin-bottom: 25px !important;
+  }
+  .FooterSubscribe {
+    margin-top: 91px;
+  }
+}
+@media only screen and (max-width: 254px) {
+  .FooterForm .ant-form-item-label label {
+    margin-bottom: 35px !important;
+  }
+  .FooterSubscribe {
+    margin-top: 116px;
+  }
+}

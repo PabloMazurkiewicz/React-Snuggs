@@ -1,0 +1,48 @@
+.FAQsHeader {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-transform: capitalize;
+  font-size: 3em;
+  font-weight: bolder;
+  text-align: center;
+}
+.FAQsSubHeader {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 2.3em;
+  color: #788188;
+  font-weight: 600;
+}
+.FAQsQuestion {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  color: #788188;
+  font-weight: bold;
+}
+.FAQsRow {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.FAQsParagraph {
+  font-size: 1.15em;
+  color: #788188;
+  margin: 0 0 19.44444px;
+}
+.FAQsParagraphHref {
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
+  color: #3d4246;
+  text-decoration: none;
+}
+.FAQsParagraphHref:hover {
+  color: #3d4246;
+  opacity: 0.6;
+}
+@media only screen and (max-width: 767px) {
+  .FAQsRow {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}

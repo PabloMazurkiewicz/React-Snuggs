@@ -1,0 +1,61 @@
+.LoginHeader {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-transform: capitalize;
+  font-size: 3em;
+  font-weight: bolder;
+  text-align: center;
+}
+.LoginRow {
+  display: flex;
+  justify-content: center;
+}
+.LoginLabel {
+  color: red;
+  font-weight: bold;
+}
+.LoginSend {
+  text-transform: uppercase;
+  height: 40px !important;
+  font-size: 1em !important;
+  width: 100px;
+  background-color: #7796a8 !important;
+  font-weight: bold !important;
+  border-color: #7796a8 !important;
+  color: white !important;
+}
+.LoginSend:hover {
+  opacity: 0.6;
+  background-color: #7796a8;
+  border-color: #7796a8 !important;
+  transform: translateY(-0.25rem) scale(1.03);
+}
+.LoginSend:focus {
+  opacity: 0.6;
+  background-color: #7796a8;
+  border-color: #7796a8 !important;
+}
+.LoginForgotPassword {
+  font-size: 1.15em;
+}
+.LoginForgotPassword:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.ant-form-large .ant-form-item-label > label {
+  font-size: 1.15em;
+}
+.LoginResetPassword {
+  margin-top: 50px;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.LoginHref {
+  color: #3d4246;
+  text-decoration: none;
+}
+.LoginHref:hover {
+  color: #3d4246;
+  opacity: 0.6;
+}

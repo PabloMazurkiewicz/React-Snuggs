@@ -1,0 +1,13 @@
+.NoItemsHeader {
+  font-size: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 1130px) {
+  .NoItemsHeader {
+    padding: 100px 0px 190px 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}

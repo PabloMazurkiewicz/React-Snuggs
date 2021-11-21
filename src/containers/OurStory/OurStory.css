@@ -1,0 +1,41 @@
+.OurStoryHeader {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-transform: capitalize;
+  font-size: 3em;
+  font-weight: bolder;
+  text-align: center;
+}
+.OurStoryRow {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.OurStoryImage {
+  margin-bottom: 30px;
+}
+.OurStoryParagraph {
+  font-size: 1.15em;
+  color: #788188;
+  margin-bottom: 0;
+}
+.OurStoryParagraphHref {
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
+  color: #3d4246;
+  text-decoration: none;
+}
+.OurStoryParagraphHref:hover {
+  color: #3d4246;
+  opacity: 0.6;
+}
+@media only screen and (max-width: 767px) {
+  .OurStoryRow {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .OurStoryImage {
+    width: 90%;
+  }
+}

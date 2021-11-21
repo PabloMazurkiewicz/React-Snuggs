@@ -1,0 +1,113 @@
+.CartRow {
+  padding: 190px 100px 190px 100px;
+}
+.CartRowItems {
+  padding: 40px 100px 0px 100px;
+}
+.CartRowData {
+  padding: 50px 100px 0px 100px;
+}
+.CartYourCart {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.CartEmptyParagraph {
+  color: #788188;
+  font-size: 1.2em;
+}
+.CartContinueShopping {
+  background-color: #7796a8 !important;
+  height: 45px !important;
+  color: white !important;
+  font-weight: 600 !important;
+  font-weight: bold !important;
+  border-color: #7796a8 !important;
+  word-spacing: 3px;
+}
+.CartContinueShopping:hover {
+  opacity: 0.6;
+  transform: translateY(-0.25rem) scale(1.03);
+}
+.CartProductHeader {
+  font-size: 1.25em;
+  color: #3d4246;
+}
+.CartProductImage {
+  height: 200px;
+  width: 175px;
+}
+.CartRemoveButton {
+  padding: 5px 15px;
+  color: black;
+  background-color: white;
+}
+.CartRemoveButton:hover {
+  color: black !important;
+  border: 1px solid black !important;
+  opacity: 0.6;
+}
+.CartHref:hover {
+  opacity: 0.6;
+}
+.CartSubtotal {
+  padding: 30px 100px 0px 100px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.75em;
+}
+.CartCheckoutButton {
+  color: white !important;
+  background-color: #19bd5d !important;
+  border: 2px solid black !important;
+  font-weight: bold !important;
+  height: 50px !important;
+}
+.CartCheckoutButton:hover {
+  opacity: 0.6;
+  transform: translateY(-0.25rem) scale(1.03);
+}
+@media only screen and (max-width: 1130px) {
+  .CartRow {
+    padding: 100px 50px 190px 50px;
+  }
+  .CartProductImage {
+    width: 150px;
+  }
+  .CartSubtotal {
+    padding: 30px 50px 0px 50px;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  .CartRow {
+    padding: 50px 25px 190px 25px;
+  }
+
+  .CartProductImage {
+    width: 120px;
+  }
+  .CartSubtotal {
+    padding: 30px 25px 0px 25px;
+  }
+}
+@media only screen and (max-width: 880px) {
+  .CartRowData {
+    padding: 50px 50px 0px 50px;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .CartRowData {
+    padding: 50px 10px 0px 10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .CartRow {
+    padding: 50px 10px 140px 10px;
+  }
+  .CartProductImage {
+    width: 120px;
+  }
+  .CartSubtotal {
+    padding: 30px 10px 0px 10px;
+  }
+}

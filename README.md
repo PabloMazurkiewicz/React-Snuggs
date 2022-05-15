@@ -1,4 +1,4 @@
-# [E-Commerce Website](https://snuggs-commerce.netlify.app/)
+# <a href="https://snuggs-commerce.netlify.app/" target="_blank">E-Commerce Website</a>
 
 <p  align="center">
   <img src="https://cdn.shopify.com/s/files/1/0007/7322/6555/files/black.png">
@@ -25,7 +25,7 @@
 - Category Page
   - a page showing all the selected category's products.
 - Contact Us Page
-  - a form page to contact the business
+  - a form page to contact the business.
 - Return Policy Page
   - a page for the policy of returing the product(s) bought.
 - Our Story Page

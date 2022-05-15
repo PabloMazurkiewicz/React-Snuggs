@@ -1,70 +1,183 @@
-# Getting Started with Create React App
+# [E-Commerce Website](https://snuggs-commerce.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p  align="center">
+  <img src="https://cdn.shopify.com/s/files/1/0007/7322/6555/files/black.png">
+</p>
 
-## Available Scripts
+> **Snuggs-Commerce** is an E-Commerce application built mainly with **ReactJS**
 
-In the project directory, you can run:
+### 👨‍💻 Technical Overview For the Project
+**Technologies & Tools used :**
+- ReactJS
+- ReduxJS
+- Ant Design
+- HTML
+- CSS
 
-### `yarn start`
+<hr>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 🌍 General Overview For the Project
+ **This is an E-Commerce website similar to a website called Snuggs, 2021 version, It consists of 11 pages**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+- Landing page
+  - a welcome page and some showcasing of the categories and the products.
+- Category Page
+  - a page showing all the selected category's products.
+- Contact Us Page
+  - a form page to contact the business
+- Return Policy Page
+  - a page for the policy of returing the product(s) bought.
+- Our Story Page
+  - a page telling the business's story. 
+- FAQs Page
+  - a page for the Frequently Asked Questions.
+- Login  page
+  - a form page to login to your account.
+- Create Account  page
+  - a form page to create an account.
+- Previous Purchases page
+  - a page to show the previously bought product(s) from the account.
+- Product page
+  - a page to show the information of the product.
+- Cart page
+  - a page to show the product(s) in the cart.
+ 
+<hr>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📄 Pictures of the website:
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/HomePageWeb.57c8fdfa.png">
+</p>
 
-### `yarn build`
+<hr>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/CategoryWeb.d78372b2.png">
+</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<hr>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/ProductWeb.617eb7d6.png"
+</p>
 
-### `yarn eject`
+<hr>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/CartEmptyWeb.f52ab08f.png">
+</p>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<hr>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/CartWeb.78306875.png">
+</p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<hr>
 
-## Learn More
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/ContactUsWeb.a02cef62.png">
+</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<hr>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/ReturnWeb.dc676565.png">
+</p>
 
-### Code Splitting
+<hr>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/OurStoryWeb.558a3845.png">
+</p>
 
-### Analyzing the Bundle Size
+<hr>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/FAQsWeb.fa2c5ad6.png">
+</p>
 
-### Making a Progressive Web App
+<hr>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/CreateAccountWeb.82ad1236.png">
+</p>
 
-### Advanced Configuration
+<hr>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/LoginWeb.cdb221dd.png">
+</p>
 
-### Deployment
+<hr>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/PreviousPurchasesWeb.7936ca26.png">
+</p>
 
-### `yarn build` fails to minify
+<hr>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/HomePageMobile.6da631ca.png">
+</p>
+
+<hr>
+
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/CategoryMobile.1ccf0b82.png">
+</p>
+
+<hr>
+
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/ProductMobile.b905bcd2.png">
+</p>
+
+<hr>
+
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/CartEmptyMobile.729c1287.png">
+</p>
+
+<hr>
+
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/CartMobile.02d15dec.png">
+</p>
+
+<hr>
+
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/ContactUsMobile.0cf191ad.png">
+</p>
+
+<hr>
+
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/ReturnMobile.9a5d3a55.png">
+</p>
+
+<hr>
+
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/OurStoryMobile.e8402a07.png">
+</p>
+
+<hr>
+
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/FAQsMobile.4d7d1982.png">
+</p>
+
+<hr>
+
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/CreateAccountMobile.3a45a8ce.png">
+</p>
+
+<hr>
+
+<p align="center">
+<img src="https://mohamedhassan98.netlify.app/static/media/LoginMobile.35a433a1.png">
+</p>

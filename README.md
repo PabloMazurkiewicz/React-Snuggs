@@ -1,10 +1,10 @@
-# <a href="https://snuggs-commerce.netlify.app/" target="_blank">E-Commerce Website</a>
+# [E-Commerce Website](https://snuggs-commerce.netlify.app/)
 
 <p  align="center">
   <img src="https://cdn.shopify.com/s/files/1/0007/7322/6555/files/black.png">
 </p>
 
-> **Snuggs-Commerce** is an E-Commerce application built mainly with **ReactJS**
+> **Snuggs-Commerce** is an E-Commerce application built with **ReactJS**
 
 ### 👨‍💻 Technical Overview For the Project
 **Technologies & Tools used :**
@@ -59,7 +59,7 @@
 <hr>
 
 <p align="center">
-<img src="https://mohamedhassan98.netlify.app/static/media/ProductWeb.617eb7d6.png"
+<img src="https://mohamedhassan98.netlify.app/static/media/ProductWeb.617eb7d6.png">
 </p>
 
 <hr>
@@ -114,70 +114,4 @@
 
 <p align="center">
 <img src="https://mohamedhassan98.netlify.app/static/media/PreviousPurchasesWeb.7936ca26.png">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://mohamedhassan98.netlify.app/static/media/HomePageMobile.6da631ca.png">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://mohamedhassan98.netlify.app/static/media/CategoryMobile.1ccf0b82.png">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://mohamedhassan98.netlify.app/static/media/ProductMobile.b905bcd2.png">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://mohamedhassan98.netlify.app/static/media/CartEmptyMobile.729c1287.png">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://mohamedhassan98.netlify.app/static/media/CartMobile.02d15dec.png">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://mohamedhassan98.netlify.app/static/media/ContactUsMobile.0cf191ad.png">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://mohamedhassan98.netlify.app/static/media/ReturnMobile.9a5d3a55.png">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://mohamedhassan98.netlify.app/static/media/OurStoryMobile.e8402a07.png">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://mohamedhassan98.netlify.app/static/media/FAQsMobile.4d7d1982.png">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://mohamedhassan98.netlify.app/static/media/CreateAccountMobile.3a45a8ce.png">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://mohamedhassan98.netlify.app/static/media/LoginMobile.35a433a1.png">
 </p>

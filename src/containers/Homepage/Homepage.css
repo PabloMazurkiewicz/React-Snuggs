@@ -13,6 +13,21 @@
   display: block;
   margin: 0 auto;
 }
+.CardOverrideStyle{
+  width:300px;
+}
+.HomepageRow{
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.HomepageCard{
+  width: 300px
+}
+.HomepageCardImage{
+  width: 300px !important; 
+  height: 300px !important;
+}
 .HomepageCategoriesHeader {
   padding-top: 55px;
   font-size: 1.5em;

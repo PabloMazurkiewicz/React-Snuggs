@@ -121,7 +121,7 @@ class Navbar extends Component {
         >
           <p>Are you sure you want to sign out?</p>
         </Modal>
-        {this.props.location.pathname == "/" ? (
+        {this.props.location.pathname === "/" ? (
           <Row className="NavbarRow">
             <Col xs={12} sm={12} md={8} lg={8} xl={6} data-aos="zoom-in-up">
               <a className="NavbarLogoA" href="/">
@@ -186,7 +186,7 @@ class Navbar extends Component {
               <Search
                 placeholder="Search"
                 allowClear
-                style={{ width: 200, margin: "0 10px" }}
+                className="NavbarSearch"
               />
               {localStorage.getItem("userId") ? (
                 <a className="NavbarIconsA" href="/history">
@@ -283,7 +283,7 @@ class Navbar extends Component {
               <Search
                 placeholder="Search"
                 allowClear
-                style={{ width: 200, margin: "0 10px" }}
+                className="NavbarSearch"
               />
               {localStorage.getItem("userId") ? (
                 <a className="NavbarIconsA" href="/history">

@@ -14,7 +14,6 @@
     "env-cmd": "^10.1.0",
     "formik": "^2.2.6",
     "history": "^5.1.0",
-    "node-sass": "^4.14.1",
     "react": "^17.0.1",
     "react-currency-format": "^1.0.0",
     "react-data-table-component": "^7.0.0-alpha-5",
@@ -64,7 +63,8 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^5.0.0"
+    "eslint-plugin-standard": "^5.0.0",
+    "sass": "^1.52.3"
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",

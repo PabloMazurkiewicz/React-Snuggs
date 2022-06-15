@@ -39,12 +39,20 @@ class Product extends Component {
     }
   }
 
-  onChangeQuantity = (value) => {
-    this.setState({ quantityNumber: value });
+  onClickEnter = () => {
+    this.setState({ quantityNumber: 1 });
   };
+
+  onChangeQuantity = (value) => {
+    if (typeof value === "number") {
+      this.setState({ quantityNumber: value });
+    }
+  };
+
   handleChange = (value) => {
     this.setState({ sizeValue: value, sizeValueChanged: true });
   };
+
   handleSubmit = () => {
     this.setState({ clickAddButton: true });
     let productBuyData = null;
@@ -107,8 +115,16 @@ class Product extends Component {
               productBuyData.sizeValue === currentCartData[i].sizeValue
             ) {
               isFoundProduct = true;
-              currentCartData[i].quantityNumber +=
-                productBuyData.quantityNumber;
+              if (
+                currentCartData[i].quantityNumber +
+                  productBuyData.quantityNumber >
+                50
+              ) {
+                currentCartData[i].quantityNumber = 50;
+              } else {
+                currentCartData[i].quantityNumber +=
+                  productBuyData.quantityNumber;
+              }
               axios
                 .put(
                   `${
@@ -154,7 +170,16 @@ class Product extends Component {
             productBuyData.sizeValue === currentCartData[i].sizeValue
           ) {
             isFoundProduct = true;
-            currentCartData[i].quantityNumber += productBuyData.quantityNumber;
+            if (
+              currentCartData[i].quantityNumber +
+                productBuyData.quantityNumber >
+              50
+            ) {
+              currentCartData[i].quantityNumber = 50;
+            } else {
+              currentCartData[i].quantityNumber +=
+                productBuyData.quantityNumber;
+            }
           } else if (
             isFoundProduct === false &&
             i === currentCartData.length - 1
@@ -265,6 +290,8 @@ class Product extends Component {
                 ) : null}
                 <Form.Item label="Quantity">
                   <InputNumber
+                    onPressEnter={this.onClickEnter}
+                    type="number"
                     className="ProductInputNumber"
                     size="large"
                     min={1}

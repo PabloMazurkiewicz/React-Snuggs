@@ -209,13 +209,7 @@ class Homepage extends Component {
         <h2 className="HomepageCategoriesHeader" data-aos="fade-up">
           Snuggs Wearable Blanket Onesie
         </h2>
-        <Row
-          style={{
-            justifyContent: "center",
-            paddingTop: "50px",
-            paddingBottom: "50px",
-          }}
-        >
+        <Row className="HomepageRow">
           {blanketOnesies
             ? blanketOnesies.map((blanketOnesie, index) => (
                 <>
@@ -223,12 +217,11 @@ class Homepage extends Component {
                     key={index}
                     className="CardOverrideStyle"
                     bordered={false}
-                    style={{ width: 300 }}
                     cover={
                       <div className="CardStyle">
                         <a href={`/snuggs-blanket-onesie-adults/${index + 1}`}>
                           <img
-                            style={{ width: "300px", height: "300px" }}
+                            className="HomepageCardImage"
                             alt={blanketOnesie.title}
                             src={blanketOnesie.images[0].src}
                           />
@@ -263,14 +256,7 @@ class Homepage extends Component {
               ))
             : null}
         </Row>
-        <Row
-          style={{
-            justifyContent: "center",
-            paddingTop: "50px",
-            paddingBottom: "50px",
-          }}
-          data-aos="fade-up"
-        >
+        <Row className="HomepageRow" data-aos="fade-up">
           <Button
             className="HomepageViewButton"
             type="primary"
@@ -286,13 +272,7 @@ class Homepage extends Component {
         <h2 className="HomepageCategoriesHeader" data-aos="fade-up">
           Hoodie Wearable Blanket Hoodie
         </h2>
-        <Row
-          style={{
-            justifyContent: "center",
-            paddingTop: "50px",
-            paddingBottom: "50px",
-          }}
-        >
+        <Row className="HomepageRow">
           {blanketHoodies
             ? blanketHoodies.map((blanketHoodie, index) => (
                 <>
@@ -300,12 +280,11 @@ class Homepage extends Component {
                     key={index}
                     className="CardOverrideStyle"
                     bordered={false}
-                    style={{ width: 300 }}
                     cover={
                       <div className="CardStyle">
                         <a href={`/snuggs-blanket-hoodie/${index}`}>
                           <img
-                            style={{ width: "300px", height: "300px" }}
+                            className="HomepageCardImage"
                             alt={blanketHoodie.title}
                             src={blanketHoodie.images[0].src}
                           />
@@ -340,14 +319,7 @@ class Homepage extends Component {
               ))
             : null}
         </Row>
-        <Row
-          style={{
-            justifyContent: "center",
-            paddingTop: "50px",
-            paddingBottom: "50px",
-          }}
-          data-aos="fade-up"
-        >
+        <Row className="HomepageRow" data-aos="fade-up">
           <Button
             className="HomepageViewButton"
             type="primary"
@@ -361,13 +333,7 @@ class Homepage extends Component {
         <h2 className="HomepageCategoriesHeader" data-aos="fade-up">
           Kids Blanket Onesie
         </h2>
-        <Row
-          style={{
-            justifyContent: "center",
-            paddingTop: "50px",
-            paddingBottom: "50px",
-          }}
-        >
+        <Row className="HomepageRow">
           {kidBlanketOnesies
             ? kidBlanketOnesies.map((kidBlanketOnesie, index) => (
                 <>
@@ -375,12 +341,11 @@ class Homepage extends Component {
                     key={index}
                     className="CardOverrideStyle"
                     bordered={false}
-                    style={{ width: 300 }}
                     cover={
                       <div className="CardStyle">
                         <a href={`/kids-blanket-animal-onesie/${index}`}>
                           <img
-                            style={{ width: "300px", height: "300px" }}
+                            className="HomepageCardImage"
                             alt={kidBlanketOnesie.title}
                             src={kidBlanketOnesie.images[0].src}
                           />
@@ -415,14 +380,7 @@ class Homepage extends Component {
               ))
             : null}
         </Row>
-        <Row
-          style={{
-            justifyContent: "center",
-            paddingTop: "50px",
-            paddingBottom: "50px",
-          }}
-          data-aos="fade-up"
-        >
+        <Row className="HomepageRow" data-aos="fade-up">
           <Button
             className="HomepageViewButton"
             type="primary"
@@ -436,13 +394,7 @@ class Homepage extends Component {
         <h2 className="HomepageCategoriesHeader" data-aos="fade-up">
           Sofa Blanket Throws
         </h2>
-        <Row
-          style={{
-            justifyContent: "center",
-            paddingTop: "50px",
-            paddingBottom: "50px",
-          }}
-        >
+        <Row className="HomepageRow">
           {blanketThrows
             ? blanketThrows.map((blanketThrow, index) => (
                 <>
@@ -450,12 +402,11 @@ class Homepage extends Component {
                     key={index}
                     className="CardOverrideStyle"
                     bordered={false}
-                    style={{ width: 300 }}
                     cover={
                       <div className="CardStyle">
                         <a href={`/normal-blanket/${index}`}>
                           <img
-                            style={{ width: "300px", height: "300px" }}
+                            className="HomepageCardImage"
                             alt={blanketThrow.title}
                             src={blanketThrow.images[0].src}
                           />
@@ -488,14 +439,7 @@ class Homepage extends Component {
               ))
             : null}
         </Row>
-        <Row
-          style={{
-            justifyContent: "center",
-            paddingTop: "50px",
-            paddingBottom: "50px",
-          }}
-          data-aos="fade-up"
-        >
+        <Row className="HomepageRow" data-aos="fade-up">
           <Button
             className="HomepageViewButton"
             type="primary"
@@ -506,13 +450,7 @@ class Homepage extends Component {
             View all
           </Button>
         </Row>
-        <Row
-          style={{
-            justifyContent: "center",
-            paddingTop: "50px",
-            paddingBottom: "50px",
-          }}
-        >
+        <Row className="HomepageRow">
           <Col
             xs={16}
             sm={16}

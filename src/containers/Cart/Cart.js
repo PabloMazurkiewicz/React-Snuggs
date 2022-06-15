@@ -32,29 +32,34 @@ class Cart extends Component {
   }
 
   onChangeQuantity = (key) => (value) => {
-    if (localStorage.getItem("userId") != null) {
-      axios
-        .put(
-          `${
-            process.env.REACT_APP_DATABASE_BASE_URL
-          }/cart/${localStorage.getItem("userId")}/${
-            key.key
-          }/quantityNumber.json`,
-          value
-        )
-        .then((response) => window.location.reload())
-        .catch((error) => Notify("Failed to change quantity", "error"));
-    } else {
-      let index = this.state.allCartData.findIndex(
-        (product) => product.productName === key.productName
-      );
-      let clonedCartData = [];
-      clonedCartData = [...this.state.allCartData];
-      clonedCartData[index].quantityNumber = value;
-      this.setState({ allCartData: clonedCartData });
-      localStorage.setItem("cartData", JSON.stringify(this.state.allCartData));
-      window.location.reload();
-    }
+    if (typeof value === "number") {
+      if (localStorage.getItem("userId") != null) {
+        axios
+          .put(
+            `${
+              process.env.REACT_APP_DATABASE_BASE_URL
+            }/cart/${localStorage.getItem("userId")}/${
+              key.key
+            }/quantityNumber.json`,
+            value
+          )
+          .then((response) => window.location.reload())
+          .catch((error) => Notify("Failed to change quantity", "error"));
+      } else {
+        let index = this.state.allCartData.findIndex(
+          (product) => product.productName === key.productName
+        );
+        let clonedCartData = [];
+        clonedCartData = [...this.state.allCartData];
+        clonedCartData[index].quantityNumber = value;
+        this.setState({ allCartData: clonedCartData });
+        localStorage.setItem(
+          "cartData",
+          JSON.stringify(this.state.allCartData)
+        );
+        window.location.reload();
+      }
+    } else return;
   };
 
   onClickRemoveHandler = (key) => {
@@ -145,15 +150,25 @@ class Cart extends Component {
     let subTotalCalculations = 0;
     if (localStorage.getItem("userId") != null) {
       for (i = 0; i < this.props.cartData.length; i++) {
-        subTotalCalculations +=
-          this.props.cartData[i].productPrice *
-          this.props.cartData[i].quantityNumber;
+        if (this.props.cartData[i].quantityNumber > 50) {
+          this.props.cartData[i].quantityNumber = 50;
+        } else {
+          subTotalCalculations +=
+            this.props.cartData[i].productPrice *
+            this.props.cartData[i].quantityNumber;
+        }
       }
     } else {
       for (i = 0; i < this.state.allCartData.length; i++) {
-        subTotalCalculations +=
-          this.state.allCartData[i].productPrice *
-          this.state.allCartData[i].quantityNumber;
+        if (this.state.allCartData[i].quantityNumber > 50) {
+          this.state.allCartData[i].quantityNumber = 50;
+          subTotalCalculations = this.state.allCartData[i].productPrice * 50;
+          console.log(subTotalCalculations);
+        } else {
+          subTotalCalculations +=
+            this.state.allCartData[i].productPrice *
+            this.state.allCartData[i].quantityNumber;
+        }
       }
     }
 

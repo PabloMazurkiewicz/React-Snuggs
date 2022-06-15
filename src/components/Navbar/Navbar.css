@@ -8,6 +8,10 @@
   width: 25%;
   height: 100%;
 }
+.NavbarSearch {
+  width:200px !important;
+  margin: 0 10px !important;
+}
 .NavbarUl {
   position: relative;
   padding: 0;

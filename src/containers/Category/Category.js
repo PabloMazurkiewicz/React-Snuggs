@@ -218,14 +218,7 @@ class Category extends Component {
         </Row>
         <Divider className="CategoryDivider" />
         <Row className="CategorySecondRow">
-          <Col
-            xs={8}
-            sm={8}
-            md={8}
-            lg={8}
-            xl={8}
-            style={{ textAlign: "center" }}
-          >
+          <Col xs={8} sm={8} md={8} lg={8} xl={8} className="CategoryCol">
             <Media query={{ minWidth: 500 }}>
               {(matches) =>
                 matches ? (
@@ -257,14 +250,7 @@ class Category extends Component {
               <span>{this.props.categoryData.products.length} Products</span>
             ) : null}
           </Col>
-          <Col
-            xs={8}
-            sm={8}
-            md={8}
-            lg={8}
-            xl={8}
-            style={{ textAlign: "center" }}
-          >
+          <Col xs={8} sm={8} md={8} lg={8} xl={8} className="CategoryCol">
             <Media query={{ minWidth: 500 }}>
               {(matches) =>
                 matches ? (

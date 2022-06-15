@@ -43,13 +43,7 @@ class PreviousPurchases extends Component {
         <Row justify="center" data-aos="fade-up">
           <h1 className="OurStoryHeader">Previous Purchases</h1>
         </Row>
-        <Row
-          style={{
-            padding: "50px 10px 50px 10px",
-            margin: "auto",
-            width: "50%",
-          }}
-        >
+        <Row className="PreviousPurchasesRow">
           <>
             {previousPurchasesBool ? (
               <Collapse
@@ -108,14 +102,7 @@ class PreviousPurchases extends Component {
                   ))}
               </Collapse>
             ) : (
-              <Row
-                style={{
-                  padding: "120px 10px 120px 10px",
-                  margin: "auto",
-                  width: "50%",
-                }}
-                data-aos="fade-up"
-              >
+              <Row className="PreviousPurchasesRow" data-aos="fade-up">
                 <h1>You haven't bought any items yet</h1>
               </Row>
             )}

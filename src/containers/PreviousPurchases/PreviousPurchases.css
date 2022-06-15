@@ -3,6 +3,11 @@
   margin-left: 5px;
   margin-right: 5px;
 }
+.PreviousPurchasesRow{
+  padding: 50px 10px 50px 10px;
+  margin: auto;
+  width: 50%;
+}
 
 @media only screen and (max-width: 1130px) {
   .NoItemsHeader {

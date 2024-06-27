@@ -1,12 +1,7 @@
-# [E-Commerce Website](https://snuggs-commerce.netlify.app/)
+# [Snuggs-Commerce Website](https://snuggs-commerce.netlify.app/)
 
-<p  align="center">
-  <img src="https://cdn.shopify.com/s/files/1/0007/7322/6555/files/black.png">
-</p>
 
-> **Snuggs-Commerce** is an E-Commerce application built with **ReactJS**
-
-### 👨‍💻 Technical Overview For the Project
+### Technical Overview For the Project
 
 **Technologies & Tools used :**
 
@@ -18,7 +13,15 @@
 
 <hr>
 
-### 🌍 General Overview For the Project
+### Pictures of the website:
+
+<p align="center">
+<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/snuggscommerceProject%2FHomePageWeb.png?alt=media">
+</p>
+
+<hr/>
+
+### General Overview For the Project
 
 **This is an E-Commerce website similar to a website called Snuggs, 2021 version, It consists of 11 pages**
 
@@ -47,74 +50,3 @@
 
 <hr>
 
-### 📄 Pictures of the website:
-
-<p align="center">
-<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/snuggscommerceProject%2FHomePageWeb.png?alt=media">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/snuggscommerceProject%2FCategoryWeb.png?alt=media">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/snuggscommerceProject%2FProductWeb.png?alt=media">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/snuggscommerceProject%2FCartEmptyWeb.png?alt=media">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/snuggscommerceProject%2FCartWeb.png?alt=media">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/snuggscommerceProject%2FContactUsWeb.png?alt=media">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/snuggscommerceProject%2FReturnWeb.png?alt=media">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/snuggscommerceProject%2FOurStoryWeb.png?alt=media">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/snuggscommerceProject%2FFAQsWeb.png?alt=media">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/snuggscommerceProject%2FCreateAccountWeb.png?alt=media">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/snuggscommerceProject%2FLoginWeb.png?alt=media">
-</p>
-
-<hr>
-
-<p align="center">
-<img src="https://firebasestorage.googleapis.com/v0/b/portfolio-ee47d.appspot.com/o/snuggscommerceProject%2FPreviousPurchasesWeb.png?alt=media">
-</p>
